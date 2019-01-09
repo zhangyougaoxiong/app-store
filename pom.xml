@@ -8,6 +8,24 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <developers>
+        <developer>
+            <name>zhangyougaoxing</name>
+            <email>zygx@gwbnsh.net.cn</email>
+            <organization>gwbnsh</organization>
+            <organizationUrl>https://github.com/zhangyougaoxiong/app-store</organizationUrl>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+
     <groupId>com.example</groupId>
     <artifactId>threadpool</artifactId>
     <version>0.0.1-SNAPSHOT</version>
