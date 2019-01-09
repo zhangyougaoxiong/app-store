@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: thread-pool
+  profiles:
+    active: @env@
+app:
+  proxy:
+    id: UserService.class,RoleService.class
