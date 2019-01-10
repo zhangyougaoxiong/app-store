@@ -6,13 +6,16 @@ import com.example.threadpool.service.impl.UserServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author zygx
+ */
 @Component
 public class BeanConfiguration {
 
-    @Bean(name = "userService")
+    @Bean(name = "userServiceFactoryBean")
     public UserService userService(){
-        AppProxyFactoryBean factoryBean=new AppProxyFactoryBean<UserService>();
+        AppProxyFactoryBean<UserServiceImpl> factoryBean=new AppProxyFactoryBean<>();
         factoryBean.setTargetClass(UserServiceImpl.class);
-        return (UserService) factoryBean.getObject();
+        return  factoryBean.getObject();
     }
 }

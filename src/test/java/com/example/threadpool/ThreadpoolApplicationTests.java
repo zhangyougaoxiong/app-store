@@ -25,7 +25,7 @@ public class ThreadpoolApplicationTests {
     }
 
     //----------------------test------------------------
-    @Autowired
+   @Resource(name = "userServiceFactoryBean")
     UserService service;
     @Test
     public void test(){
