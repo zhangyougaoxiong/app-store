@@ -27,9 +27,9 @@
 
 
     <groupId>com.example</groupId>
-    <artifactId>threadpool</artifactId>
+    <artifactId>appstore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>threadpool</name>
+    <name>app-store</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
